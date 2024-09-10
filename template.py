@@ -14,13 +14,13 @@ list_of_files=[
     f'src/{package_name}/pipelines/__init__.py',
     f'src/{package_name}/pipelines/training_pipeline.py',
     f'src/{package_name}/pipelines/prediction_pipeline.py',
-    f'src{package_name}/logger.py',
+    f'src/{package_name}/logger.py',
     f'src/{package_name}/exception.py',
     f'src/{package_name}/utils/__init__.py',
     'notebooks/research.ipynb',
     'notebooks/data/.gitkeep',
-    'requirements.txt'
-    'setup.py'
+    'requirements.txt',
+    'setup.py',
     'init_setup.sh',
 ]
 
