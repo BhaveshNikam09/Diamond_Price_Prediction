@@ -11,3 +11,14 @@ conda activate venv
 ```
 pip install -r requirements.txt
 ```
+
+# installing local package
+```
+python setup.py install
+```
+
+# another way add '-e .' in the requirements.txt
+```
+pip install -r requirements.txt
+```
+
