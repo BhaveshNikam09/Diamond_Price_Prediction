@@ -7,8 +7,9 @@ on:
 
 jobs:
   build-and-push-ecr-image:
-    name: Build Image
+    name: Build and Push Docker Image to ECR
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out code
         uses: actions/checkout@v2
@@ -32,11 +33,16 @@ jobs:
       - name: Debug ECR Registry
         run: echo ${{ steps.login-ecr.outputs.registry }}
 
+      - name: Create ECR Repository (if it does not exist)
+        run: |
+          aws ecr describe-repositories --repository-names diamondpriceprediction || \
+          aws ecr create-repository --repository-name diamondpriceprediction
+
       - name: Build, tag, and push image to Amazon ECR
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           ECR_REPOSITORY: diamondpriceprediction
           IMAGE_TAG: latest
-        run:
+        run: |
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
