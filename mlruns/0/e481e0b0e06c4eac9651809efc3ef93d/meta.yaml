@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML/DiamondPrice%20with%20MLFLOW%20and%20DVC/mlruns/0/e481e0b0e06c4eac9651809efc3ef93d/artifacts
+end_time: 1726810545918
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e481e0b0e06c4eac9651809efc3ef93d
+run_name: classy-ape-164
+run_uuid: e481e0b0e06c4eac9651809efc3ef93d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726810541586
+status: 3
+tags: []
+user_id: nikam
