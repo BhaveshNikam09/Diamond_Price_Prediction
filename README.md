@@ -33,9 +33,9 @@ The dataset used in this project contains various features related to diamond qu
 ### 4. Model Building
 We tested several models to find the one that best predicts diamond prices:
 - **Linear Regression**
-- **Random Forest Regressor**
-- **XGBoost Regressor**
-- **Support Vector Regressor**
+- **Ridge Regression**
+- **Lasso Regression**
+- **ElasticNet Regression**
 
 The best-performing model based on evaluation metrics was selected for deployment.
 
