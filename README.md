@@ -51,17 +51,22 @@ MLflow is used to track experiments, logging each model's parameters and perform
 ### 7.DVC (Data Version Control) is used for versioning datasets and managing the model training pipeline.
 
   1.Initialize DVC:
+
     `dvc init`
+
   2.Add the dataset to DVC:
     `dvc add data/gemstones.csv`
 
   3.Create a pipeline in dvc.yaml to automate preprocessing, training, and evaluation steps.
 
   4.Run the pipeline:
+
     `dvc repro`
 
   5.Track the DVC pipeline file and other DVC changes in Git:
+
     `git add dvc.yaml data/gemstones.csv.dvc`
+
     `git commit -m "Add data and pipeline setup with DVC"`
 
 
@@ -71,23 +76,29 @@ Performance: Achieved a R² score of approximately 0.94 , indicating that our mo
 
 # Installation
 1.Clone the repository:
+
   `git clone https://github.com/BhaveshNikam09/Diamond_Price_Prediction.git`
 
 2.Navigate to the project directory:
+
    `cd DiamondPricePrediction`
 
 3.Install dependencies:
+
    `pip install -r requirements.txt`
 
 
 # Usage
 1.Run the DVC pipeline:
+
   `dvc repro`
 
 2.Run the model training script:
+
   `python src\DiamondPricePrediction\pipelines\training_pipeline.py`
 
 3.Start the web app for predictions:
+
    `python app.py`
 
 ## Open a web browser and go to http://localhost:5000 to access the model prediction interface.
