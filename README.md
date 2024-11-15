@@ -53,15 +53,15 @@ MLflow is used to track experiments, logging each model's parameters and perform
   1.Initialize DVC:
     `dvc init`
   2.Add the dataset to DVC:
-    `dvc add data/diamonds.csv`
+    `dvc add data/gemstones.csv`
 
   3.Create a pipeline in dvc.yaml to automate preprocessing, training, and evaluation steps.
 
   4.Run the pipeline:
-    dvc repro
+    `dvc repro`
 
   5.Track the DVC pipeline file and other DVC changes in Git:
-    `git add dvc.yaml data/diamonds.csv.dvc`
+    `git add dvc.yaml data/gemstones.csv.dvc`
     `git commit -m "Add data and pipeline setup with DVC"`
 
 
@@ -71,7 +71,7 @@ Performance: Achieved a R² score of approximately 0.94 , indicating that our mo
 
 # Installation
 1.Clone the repository:
-  `git clone https://github.com/BhaveshNikam09/Piamond_Price_Prediction.git`
+  `git clone https://github.com/BhaveshNikam09/Diamond_Price_Prediction.git`
 
 2.Navigate to the project directory:
    `cd DiamondPricePrediction`
