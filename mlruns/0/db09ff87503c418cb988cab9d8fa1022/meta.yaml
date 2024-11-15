@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML/DiamondPrice%20with%20MLFLOW%20and%20DVC/mlruns/0/db09ff87503c418cb988cab9d8fa1022/artifacts
+end_time: 1731649175204
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: db09ff87503c418cb988cab9d8fa1022
+run_name: dazzling-roo-743
+run_uuid: db09ff87503c418cb988cab9d8fa1022
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731649166327
+status: 3
+tags: []
+user_id: nikam

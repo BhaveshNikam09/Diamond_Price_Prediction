@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML/DiamondPrice%20with%20MLFLOW%20and%20DVC/mlruns/0/41ce3da111e74f99822c4673e32c0357/artifacts
+end_time: 1727282278053
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41ce3da111e74f99822c4673e32c0357
+run_name: adventurous-goat-229
+run_uuid: 41ce3da111e74f99822c4673e32c0357
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727282273198
+status: 3
+tags: []
+user_id: nikam

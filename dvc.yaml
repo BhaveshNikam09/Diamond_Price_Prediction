@@ -1,0 +1,16 @@
+stages:
+  training:
+    cmd: python src/DiamondPricePrediction/pipelines/training_pipeline.py
+    deps:
+      - D:/ML/DiamondPrice with MLFLOW and DVC/src/DiamondPricePrediction/pipelines/training_pipeline.py
+      - D:/ML/DiamondPrice with MLFLOW and DVC/src/DiamondPricePrediction/components/data_ingestion.py
+      - D:/ML/DiamondPrice with MLFLOW and DVC/src/DiamondPricePrediction/components/data_transformation.py
+      - D:/ML/DiamondPrice with MLFLOW and DVC/src/DiamondPricePrediction/components/model_evaluation.py
+      - D:/ML/DiamondPrice with MLFLOW and DVC/src/DiamondPricePrediction/components/model_trainer.py
+
+    outs:
+      - D:/ML/DiamondPrice with MLFLOW and DVC/artifacts/raw.csv
+      - D:/ML/DiamondPrice with MLFLOW and DVC/artifacts/test.csv
+      - D:/ML/DiamondPrice with MLFLOW and DVC/artifacts/train.csv
+      - D:/ML/DiamondPrice with MLFLOW and DVC/artifacts/model.pkl
+      - D:/ML/DiamondPrice with MLFLOW and DVC/artifacts/preprocessor.pkl

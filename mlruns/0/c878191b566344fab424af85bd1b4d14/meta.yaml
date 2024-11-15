@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML/DiamondPrice%20with%20MLFLOW%20and%20DVC/mlruns/0/c878191b566344fab424af85bd1b4d14/artifacts
+end_time: 1727282425424
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c878191b566344fab424af85bd1b4d14
+run_name: capricious-wolf-954
+run_uuid: c878191b566344fab424af85bd1b4d14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727282420396
+status: 3
+tags: []
+user_id: nikam

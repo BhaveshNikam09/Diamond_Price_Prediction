@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML/DiamondPrice%20with%20MLFLOW%20and%20DVC/mlruns/0/7726183a03e5433a928a5ea793a90292/artifacts
+end_time: 1727282075185
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7726183a03e5433a928a5ea793a90292
+run_name: luminous-owl-833
+run_uuid: 7726183a03e5433a928a5ea793a90292
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727282064495
+status: 3
+tags: []
+user_id: nikam
